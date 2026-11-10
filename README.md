@@ -8,6 +8,14 @@ The goal is to support **data-driven decision-making** by identifying trends, ri
 
 ---
 
+## 📂 Dataset
+
+**Data source:** simulated inventory data (2,000 rows) created for practice, with the same structure as my [Excel inventory project](https://github.com/sabazafar209-wq/Inventory_Data_Analysis). All figures and insights below describe this simulated data, not a real company.
+
+Fields: date, product, category, warehouse, opening stock, units received, units sold, closing stock, stockout flag, supplier lead time, supplier, unit cost and unit price.
+
+---
+
 ## 🎯 Objectives
 
 * Monitor inventory movement (incoming vs outgoing)
@@ -65,15 +73,24 @@ The goal is to support **data-driven decision-making** by identifying trends, ri
 
 ## 📷 Dashboard Preview
 
-(Add your dashboard screenshots here)
+![Executive inventory overview dashboard](screenshots/01-executive-overview.png)
+
+More views: [monthly inventory flow](screenshots/02-monthly-inventory-flow.png) · [inventory flow](screenshots/03-inventory-flow.png) · [stockout-risk products](screenshots/04-stockout-risk-products.png) · [supplier insights](screenshots/05-supplier-insights.png) · [supplier lead-time delay](screenshots/06-supplier-lead-time-delay.png) · [inventory insights](screenshots/07-inventory-insights.png) · [analysis](screenshots/08-analysis.png) · [workbook view](screenshots/09-workbook-view.png)
 
 ---
 
 ## 📁 Files Included
 
-* Tableau dashboard file (.twbx)
-* Dataset (Excel/CSV)
-* Dashboard screenshots
+```
+inventory-tableau-dashboard/
+├── executive-inventory-dashboard.twb    Tableau workbook
+├── inventory_dataset_2000_rows_v2.csv   simulated dataset
+├── screenshots/                         dashboard views
+├── LICENSE
+└── README.md
+```
+
+**To open the workbook:** keep the CSV in the same folder as the `.twb` file and open it in Tableau Desktop or Tableau Public. If Tableau asks for the data source, point it to `inventory_dataset_2000_rows_v2.csv`.
 
 ---
 
@@ -87,7 +104,17 @@ This project demonstrates my ability to:
 
 ---
 
-## 🔗 Author
+## 👩‍💻 Author
 
 **Saba Zafar**
-Aspiring Data Analyst | Excel | SQL | Tableau | Power BI
+Data Analyst & Learning Analytics Researcher
+
+* Portfolio: [sabazafar209-wq.github.io/sabazafar.github.io](https://sabazafar209-wq.github.io/sabazafar.github.io/)
+* ORCID: [0009-0002-3922-176X](https://orcid.org/0009-0002-3922-176X)
+* Email: sabazafar209@gmail.com
+
+---
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
